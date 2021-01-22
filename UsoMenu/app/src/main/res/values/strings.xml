@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">UsoMenu</string>
+    <string name="opUno">Primera Opcion</string>
+    <string name="opDos">Segunda Opcion</string>
+    <string name="opTres">SubMenu</string>
+    <string name="opCuatro">Sub Opcion A</string>
+    <string name="opCinco">Sub Opcion B</string>
+    <string name="layoutUno">Estamos en el layout de la primera opcion</string>
+    <string name="layoutDos">Estamos en el layout de la segunda opcion</string>
+    <string name="mensajeInicial">Menu de Opciones, Contextual y PopUp</string>
+    <string name="ctDos">Opcion de Contexto 2</string>
+    <string name="ctUno">Opcion de Contexto 1</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/itemContexto1"
+        android:title="@string/ctUno"
+        android:orderInCategory="100"/>
+    <item android:id="@+id/itemContexto2"
+        android:title="@string/ctDos"
+        android:orderInCategory="102"/>
+</menu>

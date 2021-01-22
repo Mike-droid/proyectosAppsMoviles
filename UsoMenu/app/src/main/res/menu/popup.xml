@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/puItemH"
+        android:title="Hombres"/>
+    <item android:id="@+id/puItemM"
+        android:title="Mujeres"/>
+</menu>
