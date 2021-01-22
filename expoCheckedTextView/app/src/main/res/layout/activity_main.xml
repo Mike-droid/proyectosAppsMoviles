@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <CheckedTextView
+        android:id="@+id/ctv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkMark="?android:listChoiceIndicatorMultiple"
+        android:checked="false"
+        android:drawableLeft="@mipmap/ic_launcher_round"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="Expo de Android Studio"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <CheckedTextView
+        android:id="@+id/ctv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkMark="?android:listChoiceIndicatorMultiple"
+        android:checked="false"
+        android:drawableLeft="@mipmap/ic_launcher_round"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Comprar carne"
+        tools:layout_editor_absoluteY="526dp" />
+
+    <CheckedTextView
+        android:id="@+id/ctv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkMark="?android:listChoiceIndicatorMultiple"
+        android:checked="false"
+        android:drawableLeft="@mipmap/ic_launcher_round"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Hacer ejercicio"
+        tools:layout_editor_absoluteY="526dp" />
+
+</LinearLayout>
