@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Layouts Chidos</string>
+    <string name="title">It is my title</string>
+    <string name="button1">Continue</string>
+    <string-array name="productos">
+        <item>Carne</item>
+        <item>Leche</item>
+        <item>Pan</item>
+        <item>Aguacate</item>
+    </string-array>
+
+    <string-array name="cosas">
+        <item>Tele</item>
+        <item>Celular</item>
+        <item>Bicicleta</item>
+        <item>Casa</item>
+    </string-array>
+</resources>
