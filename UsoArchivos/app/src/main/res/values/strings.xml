@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UsoArchivos</string>
+    <string name="title">Manejo de Archivos 2020</string>
+    <string name="saveFile">Guardar archivo</string>
+    <string name="seeContent">Ver contenido</string>
+    <string name="savePreference">Guardar preferencia</string>
+    <string name="seePreference">Mostrar preferencia</string>
+    <string name="writeName">Ingresa tu nombre</string>
+    <string name="writeEmail">Ingresa tu email</string>
+    <string name="contentFile">Aquí aparecerá el contenido del archivo</string>
+</resources>

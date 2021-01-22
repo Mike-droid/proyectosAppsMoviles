@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"/>
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:id="@+id/edNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/writeName"/>
+
+    <EditText
+        android:id="@+id/edEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/writeEmail"/>
+
+    <Button
+        android:onClick="almacenarAchivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/saveFile"/>
+
+    <Button
+        android:onClick="recuperarArchivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/seeContent"/>
+
+    <Button
+        android:onClick="guardarPreferencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/savePreference"/>
+
+    <Button
+        android:onClick="mostrarPreferencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/seePreference"/>
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:onClick="mostrarPreferencia"
+        android:id="@+id/edContenido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/contentFile"/>
+
+</LinearLayout>
