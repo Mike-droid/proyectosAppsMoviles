@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BaseDeDatos1</string>
+    <string name="control">Ingresa el control</string>
+    <string name="nombre">Ingresa el nombre</string>
+    <string name="btnInsert">Insertar</string>
+    <string name="btnUpdate">Actualizar</string>
+    <string name="btnDelete">Borrar</string>
+    <string name="btnQuery">Consultar</string>
+</resources>
