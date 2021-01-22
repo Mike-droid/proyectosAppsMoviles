@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TasksToDo">
+
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkMark="?android:listChoiceIndicatorMultiple"
+        android:checked="false"
+        android:textSize="30sp"
+        android:id="@+id/ctv1"
+        android:text="Task1"
+        android:padding="10dp"/>
+
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkMark="?android:listChoiceIndicatorMultiple"
+        android:checked="false"
+        android:textSize="30sp"
+        android:id="@+id/ctv2"
+        android:text="Task2"
+        android:padding="10dp"/>
+
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkMark="?android:listChoiceIndicatorMultiple"
+        android:checked="false"
+        android:textSize="30sp"
+        android:id="@+id/ctv3"
+        android:text="Task3"
+        android:padding="10dp"/>
+
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkMark="?android:listChoiceIndicatorMultiple"
+        android:checked="false"
+        android:textSize="30sp"
+        android:id="@+id/ctv4"
+        android:text="Task4"
+        android:padding="10dp"/>
+
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkMark="?android:listChoiceIndicatorMultiple"
+        android:checked="false"
+        android:textSize="30sp"
+        android:id="@+id/ctv5"
+        android:text="Task5"
+        android:padding="10dp"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:max="5"
+        android:min="0"
+        android:id="@+id/pb"></ProgressBar>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VariosEnUno</string>
+    <string name="username">Username</string>
+    <string name="btn_login">Login</string>
+    <string name="password">Password</string>
+    <string name="TasksToDo">Tasks to do</string>
+    <string name="TasksDoing">Tasks doing</string>
+    <string name="TasksDone">Tasks done</string>
+</resources>
