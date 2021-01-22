@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MIS FINANZAS PERSONALES"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/edID"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="ID"/>
+        <EditText
+            android:id="@+id/edIngreso"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Ingreso $$$"
+            android:inputType="numberDecimal"/>
+        <EditText
+            android:id="@+id/edFuente"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fuente de ingreso (por ejemplo salario)"/>
+        <EditText
+            android:id="@+id/edGasto"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="Gasto $$$"/>
+        <EditText
+            android:id="@+id/edGastadoEn"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Gastado en (por ejemplo comida)"/>
+        <EditText
+            android:id="@+id/edFecha"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha formato AAAA-MM-DD"/>
+        <EditText
+            android:textSize="16sp"
+            android:id="@+id/NombreTrans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre de transacción"/>
+        <EditText
+            android:textSize="16sp"
+            android:id="@+id/comentarios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Comentarios"/>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:gravity="center">
+                <Button
+                    android:onClick="insertarDato"
+                    android:id="@+id/botonInsertar"
+                    android:text="Insertar"
+                    android:layout_marginRight="10dp"/>
+                <Button
+                    android:onClick="eliminarDato"
+                    android:id="@+id/botonBorrar"
+                    android:text="Borrar"
+                    android:layout_marginLeft="10dp"/>
+            </TableRow>
+            <TableRow
+                android:gravity="center">
+                <Button
+                    android:onClick="actualizarDato"
+                    android:id="@+id/botonActualizar"
+                    android:text="Actualizar"
+                    android:layout_marginRight="10dp"/>
+                <Button
+                    android:onClick="consultarDatos"
+                    android:id="@+id/botonConsultar"
+                    android:text="Consultar"
+                    android:layout_marginLeft="10dp"/>
+            </TableRow>
+        </TableLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Guardar archivo"
+                android:onClick="guardarArchivo"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ver contenido"
+                android:onClick="verContenido"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Guardar preferencia"
+                android:onClick="guardarPreferencia"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mostrar preferencia"
+                android:onClick="mostrarPreferencia"/>
+
+            <TextView
+                android:id="@+id/tvTextoPreferencia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Texto de contenido/preferencia"
+                android:textSize="16sp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"/>
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvGastos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>
