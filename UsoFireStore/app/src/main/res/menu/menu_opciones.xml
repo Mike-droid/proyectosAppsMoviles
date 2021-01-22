@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/opAgregar"
+        android:icon="@drawable/ic_baseline_add_circle_24"
+        android:title="Agregar cliente"/>
+    <item
+        android:id="@+id/opConsultar"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Consultar cliente"/>
+    <item
+        android:id="@+id/opBuscar"
+        android:icon="@drawable/ic_baseline_youtube_searched_for_24"
+        android:title="Buscar cliente"/>
+    <item
+        android:id="@+id/opBorrar"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="Borrar cliente"/>
+    <item
+        android:id="@+id/opEditar"
+        android:icon="@drawable/ic_baseline_edit_24"
+        android:title="Editar cliente"/>
+</menu>
