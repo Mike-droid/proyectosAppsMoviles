@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Hola mundo septiembre 2020</string>
+    <string name="nombre">Miguel Ángel Reyes Moreno</string>
+    <string name="opcionWeb">Abrir página</string>
+    <string name="opcionLlamar">Ver agenda</string>
+    <string name="opcionNueva">Otro layout</string>
+    <string name="mensaje">Paso de parámetros</string>
+    <string name="mensajeNombre">Ingresa tu nombre</string>
+    <string name="mensajeCorreo">Ingresa tu correo</string>
+    <string name="opcionEnviar">Enviar parámetros</string>
+</resources>
