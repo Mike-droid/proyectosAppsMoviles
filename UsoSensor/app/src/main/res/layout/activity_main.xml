@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"/>
+    <TextView
+        android:id="@+id/TVaceleracion"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aceleracion"/>
+    <TextView
+        android:id="@+id/TVluz"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/light"/>
+    <TextView
+        android:id="@+id/TVproximidad"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/proximity"/>
+    <TextView
+        android:id="@+id/TVTemperatura"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/temperature"/>
+    <TextView
+        android:id="@+id/TVCampo"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mag"/>
+    <TextView
+        android:id="@+id/TVPresion"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/presion"/>
+
+</LinearLayout>

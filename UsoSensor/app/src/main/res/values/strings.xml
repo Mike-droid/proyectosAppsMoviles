@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UsoSensor</string>
+    <string name="title">USO SENSORES</string>
+    <string name="aceleracion">AQUÍ APARECERÁN LA ACELERACIÓN</string>
+    <string name="light">AQUÍ APARECERÁ LA LUZ</string>
+    <string name="proximity">AQUÍ LA PROXIMIDAD</string>
+    <string name="temperature">AQUÓ APARECERÁ LA TEMPERATURA</string>
+    <string name="mag">AQUÍ APARECERÁ EL CAMPO MAG</string>
+    <string name="distance">AQUÍ APARECERÁ LA DISTANCIA</string>
+    <string name="presion">AQUÍ APARECERÁ LA PRESIÓN</string>
+</resources>
