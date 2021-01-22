@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Autodiagnóstico de Covid-19</string>
+    <string name="h1">Prueba de autoevaluación de Covid-19</string>
+    <string name="curpForm">Clave Única de Registro de Población (CURP)</string>
+    <string name="CPForm">Código Postal del domicilio donde vives</string>
+    <string name="edad">¿Cuántos años tienes?:</string>
+    <string name="genero">Escoge tu género:</string>
+    <string name="sintomas">¿Has tenido alguno de estos síntomas o hecho alguna de estas actividades?</string>
+    <string name="viajar">Viajado fuera de la ciudad en los últimos 14 días</string>
+    <string name="contacto">Estado en contacto con alguien que tenga Covid</string>
+    <string name="fiebre">Fiebre o temperatura mayor a 38°C</string>
+    <string name="headache">Dolor de cabeza</string>
+    <string name="tos">Tos</string>
+    <string name="respiracion">Difitultad para respirar</string>
+    <string name="dolorCuerpo">Dolores en el cuerpo</string>
+    <string name="condicion">Condición física como diabetes, hipertensión, cáncer, VIH, etc</string>
+    <string name="mensajeDatos">Escribe tu email para enviarte tus datos</string>
+    <string name="nombre">Nombre:</string>
+    <string name="email">tucorreo@ejemplo.com</string>
+    <string name="phoneNumber">Número de teléfono:</string>
+    <string name="nameHint">Tu nombre completo</string>
+</resources>
